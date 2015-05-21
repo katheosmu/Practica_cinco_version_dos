@@ -1,0 +1,50 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"        >
+        <TextView
+            style="@style/textViewStyleTittle"
+            android:text="@string/hoteles"/>
+        <TextView
+            style="@style/textViewStyleSubtittle"
+            android:text="@string/SanMartinCampestre"/>
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sanmartin"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"/>
+        <TextView
+            style="@style/textViewStyle"
+            android:text="@string/hotelsanmartin"></TextView>
+        <TextView
+            style="@style/textViewStyleSubtittle"
+            android:text="@string/DonFabio"/>
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sanmartin"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"/>
+        <TextView
+            style="@style/textViewStyle"
+            android:text="@string/hoteldonfabio"></TextView>
+        <TextView
+            style="@style/textViewStyleSubtittle"
+            android:text="@string/ElCastillito"/>
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/elcastillito"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"/>
+        <TextView
+            style="@style/textViewStyle"
+            android:text="@string/hotelelcastillito"></TextView>
+    </LinearLayout>
+
+</ScrollView>

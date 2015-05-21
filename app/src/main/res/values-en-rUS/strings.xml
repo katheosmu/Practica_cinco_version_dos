@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="app_name">List Tourism San Rafael</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="publicidad">In this application you will find relevant information about tourism in the municipality of San Rafael, you will find the guide to the main sites to visit, festivals and tourism directory, such as information on hotels and restaurants to organize your travel plan our town.</string>
+
+    <string name="title_activity_acerca">About us</string>
+    <string name="activity_acerca">This application is made by Katherine Osorio Murillo, for mobile applications course at the University of Antioquia</string>
+
+    <string name="title_activity_hotel">HotelActivity</string>
+
+    <string name="hoteles">Hotels</string>
+    <string name="SanMartinCampestre">San Martin Campestre</string>
+    <string name="hotelsanmartin">Hours: Office Hours \r \n Address: Vereda cake \r \n Phone: 321 639 82 22</string>
+
+    <string name="DonFabio">Hotel Don Fabio</string>
+    <string name="hoteldonfabio">We have two locations: one urban and semi-urban park with parking nearby. \n
+    Complaints and suggestions 3206800944</string>
+
+    <string name="ElCastillito">El Castillito</string>
+    <string name="hotelelcastillito"> \r\n Address: Cr 29 30-37 (4) \r \n Phone: 8587583</string>
+    <string name="title_activity_bar">Bars</string>
+
+    <string name="title_activity_turismo">Tourism</string>
+    <string name="title_activity_demografia">Demographics</string>
+
+    <string name="bares">Bars</string>
+    <string name="Expats">Expats Bar</string>
+    <string name="expatsbar">Music crossover, perfect to enjoy a chat with friends</string>
+
+    <string name="Discos">Clubs</string>
+    <string name="discos">People who visit San Rafael, at night, you can enjoy a variety of nightclubs around the park</string>
+
+    <string name="Fiestas">Fiestas del Rio</string>
+    <string name="fiestas">In January the main festivities are held.: Las Fiestas del Rio.</string>
+
+    <string name="Turismo">Tourism</string>
+
+    <string name="Camping">Camping \n El Bizcocho</string>
+    <string name="elbizcocho">Medellin route 6 km. The village paved road, administered by the Cooperative Multiactiva San Rafael.
+    \n Also known as the Malvinas, Via Medellin to 6 km. \n paved road from the town center, run by the Cooperativa San Rafael Multiactiva.
+    \n it offers the following services: \n
+    · Restaurant \n
+    · Bar \n
+    · Accommodation \n
+    · Campground \n
+    · Water activities \n
+    · Sport fishing in ponds</string>
+
+    <string name="CasaCultura">Culture House</string>
+    <string name="casacultura">Adjacent to the hospital and the park Mother, the house of culture was named after Clemente Antonio Giraldo, first popularly elected mayor and who inaugurated the work. The space treasures printed knowledge in the books of the library and a promoter, broadcaster and former artistic.</string>
+
+    <string name="LaTernera">Las Terneras\n Park</string>
+    <string name="laternera">Km 2.5 Route El Arenal, San Rafael (Antioquia)</string>
+
+    <string name="Demografia">Demographics</string>
+    <string name="presentacion">San Rafael Glassy Water charm</string>
+    <string name="mas">San Rafael is a municipality of Colombia, located in the sub-region East of the department of Antioquia. It bounded on the north by the municipalities of Alexandria and San Roque, in the east and south with the municipality of San Carlos and to the west with the municipalities of Guatapé and Alexandria.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

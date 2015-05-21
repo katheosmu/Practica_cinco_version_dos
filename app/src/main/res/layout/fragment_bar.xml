@@ -1,0 +1,53 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"        >
+        <TextView
+            style="@style/textViewStyleTittle"
+            android:text="@string/title_activity_bar"/>
+
+        <TextView
+            style="@style/textViewStyleSubtittle"
+            android:text="@string/Expats"/>
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bar"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"/>
+        <TextView
+            style="@style/textViewStyle"
+            android:text="@string/expatsbar"></TextView>
+        <TextView
+            style="@style/textViewStyleSubtittle"
+            android:text="@string/Discos"/>
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/discoteca"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"/>
+        <TextView
+            style="@style/textViewStyle"
+            android:text="@string/discos"></TextView>
+        <TextView
+            style="@style/textViewStyleSubtittle"
+            android:text="@string/Fiestas"/>
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/images"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"/>
+        <TextView
+            style="@style/textViewStyle"
+            android:text="@string/fiestas"></TextView>
+
+    </LinearLayout>
+
+</ScrollView>
+
