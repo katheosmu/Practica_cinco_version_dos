@@ -1,7 +1,11 @@
 package mainactivity.katherineosorio.com.practica_cinco_version_dos;
 
+import android.app.FragmentTransaction;
+import android.content.Intent;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
+import android.app.Fragment;
+import android.support.v4.app.FragmentActivity;
+import android.app.FragmentManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -16,7 +20,7 @@ import mainactivity.katherineosorio.com.practica_cinco_version_dos.dummy.DummyCo
  * in two-pane mode (on tablets) or a {@link ItemDetailActivity}
  * on handsets.
  */
-public class ItemDetailFragment extends Fragment {
+public class ItemDetailFragment extends Fragment{
     public static final String POSICION = "position";
     int position = -1;
     /**
@@ -54,8 +58,8 @@ public class ItemDetailFragment extends Fragment {
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_item_detail, container, false);
 
-        android.support.v4.app.FragmentManager fragmentManager = getFragmentManager();
-        android.support.v4.app.FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+        FragmentManager fragmentManager = getFragmentManager();
+        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
 
         // Comprobamos si se recupera de un estado anterior
         if (savedInstanceState != null) {
@@ -83,6 +87,12 @@ public class ItemDetailFragment extends Fragment {
             if(mItem.id.equals("5")){
                 AcercaFragment acerca = new AcercaFragment();
                 fragmentTransaction.replace(android.R.id.content,acerca).commit();
+            }
+            if(mItem.id.equals("6")){
+                Map mep = new Map();
+                fragmentTransaction.replace(android.R.id.content, mep).commit();
+                /*uno un = new uno();
+                fragmentTransaction.replace(android.R.id.content,un).commit();*/
             }
 
         }

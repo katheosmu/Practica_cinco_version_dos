@@ -3,6 +3,7 @@ package mainactivity.katherineosorio.com.practica_cinco_version_dos;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
+import android.app.FragmentManager;
 
 
 /**
@@ -69,32 +70,39 @@ public class ItemListActivity extends FragmentActivity
 
             if(id.equals("1")){
                 HotelFragment hotel = new HotelFragment();
-                getSupportFragmentManager().beginTransaction()
+                getFragmentManager().beginTransaction()
                         .replace(R.id.item_detail_container, hotel)
                         .commit();
             }
             else if(id.equals("2")){
                 BarFragment bar = new BarFragment();
-                getSupportFragmentManager().beginTransaction()
+                getFragmentManager().beginTransaction()
                         .replace(R.id.item_detail_container, bar)
                         .commit();
             }
             else if(id.equals("3")){
                 DemoFragment demo = new DemoFragment();
-                getSupportFragmentManager().beginTransaction()
+                getFragmentManager().beginTransaction()
                         .replace(R.id.item_detail_container, demo)
                         .commit();
             }
             else if(id.equals("4")){
                 TurismoFragment turis = new TurismoFragment();
-                getSupportFragmentManager().beginTransaction()
+                getFragmentManager().beginTransaction()
                         .replace(R.id.item_detail_container, turis)
                         .commit();
             }
             else if(id.equals("5")){
                 AcercaFragment acerca = new AcercaFragment();
-                getSupportFragmentManager().beginTransaction()
+                getFragmentManager().beginTransaction()
                         .replace(R.id.item_detail_container, acerca)
+                        .commit();
+            }
+            else if(id.equals("6")){
+                Map map = new Map();
+                getFragmentManager().beginTransaction()
+                        .replace(R.id.item_detail_container, map)
+                        .addToBackStack(null)
                         .commit();
             }
 /*            getSupportFragmentManager().beginTransaction()

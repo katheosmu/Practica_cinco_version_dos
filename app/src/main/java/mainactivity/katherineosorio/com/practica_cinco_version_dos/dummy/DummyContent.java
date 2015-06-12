@@ -5,6 +5,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.ResourceBundle;
+
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
@@ -20,6 +22,8 @@ import static android.provider.Settings.Global.getString;
  * TODO: Replace all uses of this class before publishing your app.
  */
 public class DummyContent {
+
+    public static Context GlobalContext = null;
 
     /**
      * An array of sample (dummy) items.
@@ -38,6 +42,7 @@ public class DummyContent {
         addItem(new DummyItem("3", "Demografia"));
         addItem(new DummyItem("4", "Turismo"));
         addItem(new DummyItem("5", "Acerca"));
+        addItem(new DummyItem("6", "Ubicacion"));
     }
 
     private static void addItem(DummyItem item) {
@@ -56,6 +61,11 @@ public class DummyContent {
         public DummyItem(String id, String content) {
             this.id = id;
             this.content = content;
+        }
+
+        @Override
+        public String toString() {
+            return content;
         }
 }
 }
